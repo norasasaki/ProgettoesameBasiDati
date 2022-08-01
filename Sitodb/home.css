@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;500&family=Open+Sans&display=swap');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #0a080c;
+	background-color: #E63946;
+}
+
+.nav-link {
+	font-size: calc(15px + 0.2vh);
+	color: #F1FAEE;
+}
+
+.navbar-nav {
+	margin-bottom: 10px;
+}
+
+a.nav-link:hover {
+	color: #000;
+}
+.form-control::placeholder {
+	color: #000;
+}
+.btn-outline-success:hover {
+	color: #fff;
+background-color: #e63946;
+border-color: #e63946;
+}
+
+.avatarU {
+	max-width: 50px;border-radius: 40px;
+}
+.nomeU {display: inline;}
+
+
+.form-group {
+    margin-bottom: 1rem;
+    margin-left: 5px;
+	margin-right: 5px; 
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+	margin-left: -55px;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #F1FAEE;
+}
+
+#navbarNavDropdown > ul > nav > form > input {
+	width: calc(500px + 1em);
+	background: inherit;
+}
+
+.form-control {
+	border: none;
+	border-bottom: 2px solid #1D3557;
+	border-radius: initial;
+	background-color: #F1FAEE;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #457B9D;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgb(168, 218, 220);
+    border-radius: 5px;
+    border: 2px solid #457B9D;
+	background-color: #fff !important; 
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show > .btn-outline-success.dropdown-toggle {
+	color: #fff;
+	background-color: #e63946;
+	border-color: #e63946;
+} 
+
+.btn:focus ,.btn-primary:focus, .btn-outline-success.focus, .btn-outline-success:focus {
+	box-shadow: 0 0 0 .2rem rgba(230, 57, 70, .5) !important;
+}
+.btn, .btn-primary, .btn-outline-success {
+ color:#F1FAEE;
+ background: #1D3557;
+ border: none;
+}
+
+.btn:hover, .btn-primary:hover, .btn-outline-success:hover {
+ color:#0a080c;
+ background: #A8DADC;
+ border: none;
+}
+
+.form-inline {
+	margin-top: -10px;
+}
+
+.navbar-nav {
+	margin-bottom: -10px;
+}
+
+.part1 {
+	width:80%;
+	display:inline-flex;
+}
+
+#Sezione1 {
+	background-color: #E63946;
+}
+
+#Sezione1Titolo {
+	font-family: Jost;
+	font-size: calc(180px + 2vw);
+	text-align: center;
+}
+
+#Sezione1Sottotitolo {
+	text-align: center;
+	font-family: Jost;
+	font-weight: 100;
+	color: #F1FAEE;
+	font-size: calc(20px + 1.5vw);
+	width: 80%;
+	margin: auto;
+}
+
+#Sezione1Paragrafo {
+	font-family: jost;
+	font-weight: 100;
+	font-size: calc(10px + 0.5vw);
+	text-align: center;
+	color: #00000094;
+	width: 50%;
+	margin: auto;
+	margin-top: calc(20px + 1vh);
+}
+
+#Sezione2 {
+	background-color: #F1FAEE;
+}
+
+
+
+#mostpopblog {
+	background-color: #E63946;
+	margin-top: 2%;
+}
+
+ 
+#Sezione3 {
+	background-color: #a8dadc;
+
+}
+
+#TrendingTitle {
+	font-family: Jost;
+    font-size: calc(40px + 1vw);
+    text-align: center;
+    margin-top: 40px;
+}
+#TrendingSubtitle {
+	text-align: center;
+    opacity: .6;
+    font-family: jost;
+    font-weight: 100;
+    margin-bottom: 70px;
+    font-size: calc(30px + 1vw);
+}
+#Sezione3 {
+	background-color: #A8DADC;
+}
+
+#Sezione4 {
+	background-color: #457B9D;
+}
+
+#Footer {
+	background-color: #1D3557;
+}
+
+#FooterTitolo {
+	font-family: Jost;
+	font-size: calc(30px + 2vw);
+	text-align: center;
+	color: #F1FAEE;
+}
+
+#FooterSottotitolo {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+#FooterSottotitolo > a {
+	color: #F1FAEE;
+	text-decoration: none;	
+	font-family: Jost;
+	font-weight: 100;
+}
+
+#FooterSottotitolo > a:hover, #Credits > li > a:hover {
+	color: #A8DADC;
+}
+
+#Credits {
+	list-style: none;
+	text-align: center;
+	margin: auto;
+	width: 50%;
+	overflow: hidden;
+	margin-top: calc(10px + 1vh);
+	color: #F1FAEE;
+}
+
+#Credits > li {
+	float: left;
+	display: block;
+	margin-right: calc(15px + 1vh);
+}
+
+#Credits > li > a {
+	text-decoration: none;
+	color: #E63946;
+}
+
+
+#avvisopost{
+	position:relative;
+	text-align: center;
+}
+
+#popicon{
+	width:27%;
+}
+#popheader{
+	width:73%;
+}
+.descrizione{
+	width:15%;
+	display: inline-block;
+	height: 190px;
+	overflow: scroll;
+	overflow-x:hidden;
+}
+.descrizione::-webkit-scrollbar {
+    width: 10px;
+}
+
+.descrizione::-webkit-scrollbar-track { 
+    border-radius: 10px;
+	background: #ff3333;
+}
+
+.descrizione::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+	background: #000000;
+}
+
+#titlepop{
+	text-align:center;
+}
+
+
+.no {
+	display: none;
+}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.bigcontainer {
+position: relative;
+margin: auto;
+width: 80%;
+}
+.bigcontainernew{
+	position: relative;
+	margin: auto;
+	width: 80%;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.bigcontainer1{
+	display:inline-flex;
+	width:80%;
+	align-content:center;
+	margin-left:6%;
+}
+
+.contanierblognew{
+	width:40%;
+	text-align: center;
+	margin-left: 4%;
+	margin-top:2%;
+	margin-bottom:2%;
+	
+}
+
+.imgB {
+	width:45%;
+	border-radius: 50%;
+	margin: 3%;
+}
+#prev1 {
+	position: relative;
+	margin-left:5%;
+	display:inline-flex;
+}
+.next1{
+	display:inline-flex;
+	position: relative;
+}
+
+.descrizioneB{
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: 60px;
+	margin: 3%;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+  background-color: #717171;
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next {font-size: 11px}
+}
